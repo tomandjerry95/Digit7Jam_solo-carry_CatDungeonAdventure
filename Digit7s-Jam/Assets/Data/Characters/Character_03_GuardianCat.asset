@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c6cf91c0db5ee1479a8ce44c430b5b5, type: 3}
+  m_Name: Character_03_GuardianCat
+  m_EditorClassIdentifier: 
+  characterId: guardian_cat
+  characterName: Cat Guardian
+  characterClass: Armored Sentinel
+  description: "<b><color=#FFD700>[ HP: 40  |  DMG: 3 ]</color></b>\n\u2022 <color=#55CCFF><b>5-Hits
+    Combo:</b></color> 6th Attack Blocks Enemy DMG, Grants Shield & Heals (+2/4/6 HP)\n\u2022 <color=#55FF88><b>On
+    Kill:</b></color> Grants 1-Time Shield Block"
+  characterIcon: {fileID: 21300000, guid: da7e2e59adca0054bb9617cc05b2bd2c, type: 3}
+  catClassType: 2
+  baseHealth: 40
+  baseDamage: 3
+  attacksRequiredForSpecial: 5
+  procHpPerDamageStep: 2
+  stunBlockClicksRequired: 0
+  onKillHpPerEnemyHpStep: 0
+  roomBonusDamage: 0
+  roomBonusHpPerHpStep: 0
+  skins:
+  - skinName: Royal Knight
+    characterPrefab: {fileID: 1893733307810345971, guid: 688d09280dd13a8458b3d30b1c787979, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: cc532cc5bd760e543a882564dee9c714, type: 2}
+    skinIcon: {fileID: 0}
+    themeColor: {r: 0.9, g: 0.75, b: 0.2, a: 1}
+  - skinName: Neon Phantom
+    characterPrefab: {fileID: 2299909971041196839, guid: d8a104f9411ecf641953eca4d2ff3afa, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: ca5be8fceca1367448df71d2c9424ae5, type: 2}
+    skinIcon: {fileID: 0}
+    themeColor: {r: 0.75, g: 0.35, b: 1, a: 1}
+  - skinName: Forest Warden
+    characterPrefab: {fileID: 3557409941160630831, guid: 8ac7430f7a779ad40998274321953a36, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: a2156712fe9243a409300966fb6b4faa, type: 2}
+    skinIcon: {fileID: 0}
+    themeColor: {r: 0.35, g: 0.85, b: 0.45, a: 1}
+  - skinName: Abyssal Sentinel
+    characterPrefab: {fileID: 7552093846056240560, guid: 8b6fd63dc32f52249b26d2f0e0628e42, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: af3519ae9e05b604ab0b97ca9d62c544, type: 2}
+    skinIcon: {fileID: 0}
+    themeColor: {r: 0.35, g: 0.45, b: 0.7, a: 1}
+  - skinName: Crimson Shinobi
+    characterPrefab: {fileID: 1105428097121018172, guid: d06cc1d362b76054a911f78a60143c87, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: 1becea589591ab44e83b81aadaf14d5b, type: 2}
+    skinIcon: {fileID: 0}
+    themeColor: {r: 0.95, g: 0.25, b: 0.25, a: 1}
+  defaultSkinIndex: 0

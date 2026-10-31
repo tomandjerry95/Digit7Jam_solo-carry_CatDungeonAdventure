@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e08253e762d331d4f88b438cf8ce51c6, type: 3}
+  m_Name: EnemyCollection_Boss
+  m_EditorClassIdentifier: 
+  collectionName: Boss Enemies Collection (Boss enemy)
+  collectionType: 1
+  description: Collection of all boss tier enemies featuring high durability and
+    special attack phases.
+  enemies:
+  - {fileID: 11400000, guid: 260f5581cb9f17741a994b089f38b042, type: 2}
+  - {fileID: 11400000, guid: b01d9613ad3c5df438449a607a88af6f, type: 2}
+  - {fileID: 11400000, guid: 0dd04e3501aeb74469bef2927c1aca1f, type: 2}
+  - {fileID: 11400000, guid: 50a3a16733692a44f8491725a4bcc1dc, type: 2}
+  - {fileID: 11400000, guid: 76e99372d4d294546b7dd6b49cbf378d, type: 2}
+  - {fileID: 11400000, guid: b72a58b43dd4c104096e876582e03f20, type: 2}
+  - {fileID: 11400000, guid: 9b27660871fa1824ab9512ecfcaad360, type: 2}
+  roomTiers:
+  - tierName: Boss Tier 1 (Lv 2 - 3)
+    minRoomLevel: 2
+    maxRoomLevel: 3
+    minEnemyCount: 1
+    maxEnemyCount: 1
+    minEnemyNumber: 1
+    maxEnemyNumber: 1
+  - tierName: Boss Tier 2 (Lv 5 - 6)
+    minRoomLevel: 5
+    maxRoomLevel: 6
+    minEnemyCount: 1
+    maxEnemyCount: 1
+    minEnemyNumber: 2
+    maxEnemyNumber: 2
+  - tierName: Boss Tier 3 (Lv 8 - 9)
+    minRoomLevel: 8
+    maxRoomLevel: 9
+    minEnemyCount: 1
+    maxEnemyCount: 1
+    minEnemyNumber: 3
+    maxEnemyNumber: 3
+  - tierName: Boss Tier 4 (Lv 11 - 12)
+    minRoomLevel: 11
+    maxRoomLevel: 12
+    minEnemyCount: 1
+    maxEnemyCount: 1
+    minEnemyNumber: 4
+    maxEnemyNumber: 4
+  - tierName: Boss Tier 5 (Lv 14 - 15)
+    minRoomLevel: 14
+    maxRoomLevel: 15
+    minEnemyCount: 1
+    maxEnemyCount: 1
+    minEnemyNumber: 5
+    maxEnemyNumber: 5
+  - tierName: Boss Tier 6 (Lv 17 - 18)
+    minRoomLevel: 17
+    maxRoomLevel: 18
+    minEnemyCount: 1
+    maxEnemyCount: 1
+    minEnemyNumber: 6
+    maxEnemyNumber: 6
+  - tierName: Boss Tier 7 (Lv 20 - 21)
+    minRoomLevel: 20
+    maxRoomLevel: 21
+    minEnemyCount: 1
+    maxEnemyCount: 1
+    minEnemyNumber: 7
+    maxEnemyNumber: 7
+  - tierName: Boss Tier Endless (Lv 22+)
+    minRoomLevel: 22
+    maxRoomLevel: -1
+    minEnemyCount: 1
+    maxEnemyCount: 1
+    minEnemyNumber: 1
+    maxEnemyNumber: 7
+  levelsPerScalingStep: 3
+  hpBonusPerStep: 8
+  damageBonusPerStep: 4

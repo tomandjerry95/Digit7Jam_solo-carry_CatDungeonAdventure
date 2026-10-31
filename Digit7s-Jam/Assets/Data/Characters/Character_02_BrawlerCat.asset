@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c6cf91c0db5ee1479a8ce44c430b5b5, type: 3}
+  m_Name: Character_02_BrawlerCat
+  m_EditorClassIdentifier: 
+  characterId: brawler_cat
+  characterName: Cat Brawler
+  characterClass: Heavy Boxer
+  description: "<b><color=#FFD700>[ HP: 30  |  DMG: 4 ]</color></b>\n\u2022 <color=#FFE855><b>5-Hits
+    Combo:</b></color> 6th Attack deals Damage x1.5, Heals (+1~3 HP) & Grants Shield\n\u2022
+    <color=#55FF88><b>On Kill:</b></color> Heals +1~3 HP based on Enemy Total HP"
+  characterIcon: {fileID: 21300000, guid: 39c372eaef5e3384699df579e6aaf372, type: 3}
+  catClassType: 1
+  baseHealth: 30
+  baseDamage: 4
+  attacksRequiredForSpecial: 5
+  procHpPerDamageStep: 1
+  stunBlockClicksRequired: 0
+  onKillHpPerEnemyHpStep: 1
+  roomBonusDamage: 0
+  roomBonusHpPerHpStep: 0
+  skins:
+  - skinName: Shadow Pugilist
+    characterPrefab: {fileID: 5048110745450526038, guid: 99711e8c5efcd474a955cde4e02b9082, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: f64bbad26fd35024ca133b2ea4ec2557, type: 2}
+    skinIcon: {fileID: 0}
+    themeColor: {r: 0.5, g: 0.5, b: 0.65, a: 1}
+  - skinName: Crimson Gloves
+    characterPrefab: {fileID: 437382142364312187, guid: afe97aceea28b104191fcf978f4e9293, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: 9da2c6e96dd0bbc448b99eabe1b88937, type: 2}
+    skinIcon: {fileID: 0}
+    themeColor: {r: 0.95, g: 0.25, b: 0.35, a: 1}
+  - skinName: Thunder Mitts
+    characterPrefab: {fileID: 725683415561950275, guid: 0ebbb41d041ec6648b937132835c1bbc, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: abc3b00e1021b5547be38d8cdae4d56d, type: 2}
+    skinIcon: {fileID: 0}
+    themeColor: {r: 1, g: 0.7, b: 0.15, a: 1}
+  - skinName: Iron Claw
+    characterPrefab: {fileID: 630746171148635648, guid: 989ec94212effb948a19553de571edbf, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: ad7391091d42d5d408433e89f3401c4f, type: 2}
+    skinIcon: {fileID: 0}
+    themeColor: {r: 0.8, g: 0.85, b: 0.95, a: 1}
+  - skinName: Steam Raider
+    characterPrefab: {fileID: 5751693760220559507, guid: 2face9eeeedcd0b4d84aacd7517e07db, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: e5313381bdee80d4eab57c02371dea6d, type: 2}
+    skinIcon: {fileID: 0}
+    themeColor: {r: 0.98, g: 0.55, b: 0.15, a: 1}
+  defaultSkinIndex: 0

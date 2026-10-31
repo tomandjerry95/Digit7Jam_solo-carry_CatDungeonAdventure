@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 761ef5bdcc36e5b419eee02b2fd6ed11, type: 3}
+  m_Name: Enemy_Boss_05
+  m_EditorClassIdentifier: 
+  enemyId: enemy_boss_05
+  enemyName: Enemy Boss 5
+  enemyType: 1
+  description: Boss enemy variant #5. Elite heavy encounter with formidable health
+    pools and high-damage attacks.
+  enemyIcon: {fileID: 0}
+  enemyPrefab: {fileID: 441430516358351690, guid: 15a39585659b0864aa7b94ac38bc91ae, type: 3}
+  skeletonDataAsset: {fileID: 11400000, guid: 602736b1c899e594c844465f766f0f0c, type: 2}
+  minHp: 35
+  maxHp: 55
+  minDamage: 6
+  maxDamage: 15
+  idleAnimation: Idle
+  walkAnimation: Walk
+  attackAnimation: Attack
+  deadAnimation: Dead

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 761ef5bdcc36e5b419eee02b2fd6ed11, type: 3}
+  m_Name: Enemy_Reg_07
+  m_EditorClassIdentifier: 
+  enemyId: enemy_reg_07
+  enemyName: Enemy Reg 7
+  enemyType: 0
+  description: Regular enemy variant #7. Standard combat unit equipped with melee
+    and chasing behaviors.
+  enemyIcon: {fileID: 0}
+  enemyPrefab: {fileID: 6439935100346477365, guid: 919f02c4240913d40b442df03bdd1cd2, type: 3}
+  skeletonDataAsset: {fileID: 11400000, guid: 3e4580309b3ce7242a4f17acec5c3d54, type: 2}
+  spawnOffset: {x: 0, y: 0, z: 0}
+  minHp: 7
+  maxHp: 12
+  minDamage: 3
+  maxDamage: 8
+  idleAnimation: Idle
+  walkAnimation: Walking
+  attackAnimation: Attack
+  deadAnimation: Dead

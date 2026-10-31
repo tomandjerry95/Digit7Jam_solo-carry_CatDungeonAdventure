@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e08253e762d331d4f88b438cf8ce51c6, type: 3}
+  m_Name: EnemyCollection_Regular
+  m_EditorClassIdentifier: 
+  collectionName: "Regular Enemies Collection (\u101B\u102D\u102F\u1038\u101B\u102D\u102F\u1038
+    enemy)"
+  collectionType: 0
+  description: Collection of all standard ground and aerial regular enemies encountered
+    in levels.
+  enemies:
+  - {fileID: 11400000, guid: c2595dccf5dce6447a1c722df642deaf, type: 2}
+  - {fileID: 11400000, guid: da77e8651e5746f45a90c6cf518459c7, type: 2}
+  - {fileID: 11400000, guid: 9e7447998b0a08a44835c176ca04ad33, type: 2}
+  - {fileID: 11400000, guid: 66586f639f0d9c348be05bc7bdc14d32, type: 2}
+  - {fileID: 11400000, guid: 617121fce33e33946b7cef3cb384ba27, type: 2}
+  - {fileID: 11400000, guid: 00c4f4cbde120124696f378314768774, type: 2}
+  - {fileID: 11400000, guid: b0cb80b0780660440850206af6ac11b7, type: 2}
+  - {fileID: 11400000, guid: 4909ce0d4a6a64843a58b2136f7c33c3, type: 2}
+  roomTiers:
+  - tierName: Tier 1 (Lv 1 - 4)
+    minRoomLevel: 1
+    maxRoomLevel: 4
+    minEnemyCount: 4
+    maxEnemyCount: 7
+    minEnemyNumber: 1
+    maxEnemyNumber: 4
+  - tierName: Tier 2 (Lv 5 - 8)
+    minRoomLevel: 5
+    maxRoomLevel: 8
+    minEnemyCount: 5
+    maxEnemyCount: 10
+    minEnemyNumber: 1
+    maxEnemyNumber: 6
+  - tierName: Tier 3 (Lv 9 - 12)
+    minRoomLevel: 9
+    maxRoomLevel: 12
+    minEnemyCount: 7
+    maxEnemyCount: 15
+    minEnemyNumber: 1
+    maxEnemyNumber: 8
+  - tierName: Tier 4 (Lv 13+)
+    minRoomLevel: 13
+    maxRoomLevel: -1
+    minEnemyCount: 9
+    maxEnemyCount: 16
+    minEnemyNumber: 1
+    maxEnemyNumber: 8
+  levelsPerScalingStep: 1
+  hpBonusPerStep: 1
+  damageBonusPerStep: 1

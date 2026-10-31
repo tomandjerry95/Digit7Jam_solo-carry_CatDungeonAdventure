@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 761ef5bdcc36e5b419eee02b2fd6ed11, type: 3}
+  m_Name: Enemy_Reg_02
+  m_EditorClassIdentifier: 
+  enemyId: enemy_reg_02
+  enemyName: Enemy Reg 2
+  enemyType: 0
+  description: Regular enemy variant #2. Standard combat unit equipped with melee
+    and chasing behaviors.
+  enemyIcon: {fileID: 0}
+  enemyPrefab: {fileID: 2031281824099118812, guid: 647b90b6844ca964f9a6136b8acaf5c9, type: 3}
+  skeletonDataAsset: {fileID: 11400000, guid: e2c186bcfedc40b4b88f4186b8f17217, type: 2}
+  minHp: 4
+  maxHp: 7
+  minDamage: 1
+  maxDamage: 3
+  idleAnimation: Idle
+  walkAnimation: Walking
+  attackAnimation: Attack
+  deadAnimation: Dead
